@@ -1,0 +1,70 @@
+/* Set background image and styles for the body */
+body {
+    background-image: url("861889.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for the menu */
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu li {
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .menu li:last-child {
+    margin-right: 0;
+  }
+  
+  .menu li a {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu li a:hover {
+    background-color: #444;
+  }
+  
+  .menu li span {
+    color: #fff;
+    margin: 0 5px;
+  }
+  
+  .menu ul {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    padding: 0;
+    z-index: 1;
+  }
+  
+  .menu li:hover > ul {
+    display: block;
+  }
+  
+  .menu ul li {
+    display: block;
+  }
+  
+  .menu ul li a {
+    padding: 10px;
+  }
+  
+  .menu ul li:hover {
+    background-color: #444;
+  }
+  
