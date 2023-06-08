@@ -1,0 +1,30 @@
+
+body {
+    background: linear-gradient(to bottom right, #ffb300, #ffb300);
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background: linear-gradient(to bottom right, #936700, #936700);
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 50px;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.photo {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.photo img {
+    width: 1600px;
+    height: 600px;
+    border-radius: 2.5%;
+}
