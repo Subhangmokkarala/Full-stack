@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Agents of S.H.I.E.L.D.</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="index-container">
+    <h1>Welcome to Agents of S.H.I.E.L.D.</h1>
+    <p>Please login to continue.</p>
+    <form id="login-form">
+      <input type="text" id="username" placeholder="Username" required>
+      <input type="password" id="password" placeholder="Password" required>
+      <button type="submit">Login</button>
+    </form>
+    <a href="#" class="agents-link" onclick="redirectToAgents()">Go to Agents Page</a>
+  </div>
+
+  <div id="gif-container" class="hidden">
+    <img src="success.gif" alt="Success GIF">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,133 @@
+body {
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/09/New-Asgard-In-Avengers-Endgame.jpg");
+    background-size: 1920px 1080px;
+    background-color: black;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1.5em;
+}
+
+.damn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 10vh;
+}
+
+.hui {
+    border-radius: 50px;
+    background-color: rgb(0, 195, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+.hui:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-top: 50px;
+}
+
+.button-container {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.button-container a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 50px;
+    height: 50px;
+}
+
+.idk {
+    margin: 10px;
+    padding: 10px 20px;
+    border: 10px solid rgba(0, 191, 255, 0.825);
+    border-radius: 100px;
+    background-color: #00ccffe0;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+button{
+    color: aqua;
+}
+.idk:hover {
+    background-color: #ffffff; 
+}
+
+.tour {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.tour h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+.info{
+    color: aqua;
+}
+.container h1{
+    background-color: darkblue;
+    color: aqua;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+}
